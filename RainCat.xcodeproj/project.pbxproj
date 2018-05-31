@@ -17,7 +17,6 @@
 		AA464D3420C00AD4008CF8B0 /* sound_pumpkin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA464D2A20C00AD3008CF8B0 /* sound_pumpkin.mp3 */; };
 		AA464D3520C00AD4008CF8B0 /* sound_coconut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA464D2B20C00AD3008CF8B0 /* sound_coconut.mp3 */; };
 		AA464D3620C00AD4008CF8B0 /* sound_orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA464D2C20C00AD3008CF8B0 /* sound_orange.mp3 */; };
-		BB046BB71EA157FC001035EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */; };
 		BB0B1C881D8C9BA900C09901 /* LogoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0B1C871D8C9BA900C09901 /* LogoScene.swift */; };
 		BB0C20551E9EDAE8004C8E84 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */; };
 		BB35FD831EBBA06A00D58F68 /* CreditLabelButtonSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35FD821EBBA06A00D58F68 /* CreditLabelButtonSprite.swift */; };
@@ -110,6 +109,7 @@
 		BBDAD95B1F08945100BB111E /* jeffmoon-raincat-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = BBDAD95A1F08945100BB111E /* jeffmoon-raincat-1.wav */; };
 		BBED71881EBA3B8C002E118E /* TextButtonSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED71871EBA3B8C002E118E /* TextButtonSprite.swift */; };
 		BBED718A1EBA4F8F002E118E /* SoundButtonSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED71891EBA4F8F002E118E /* SoundButtonSprite.swift */; };
+		E16DFF5B20C03DE200E6DF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16DFF5A20C03DE200E6DF89 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -136,7 +136,6 @@
 		AA464D2A20C00AD3008CF8B0 /* sound_pumpkin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound_pumpkin.mp3; path = Support/SFX/sound_pumpkin.mp3; sourceTree = "<group>"; };
 		AA464D2B20C00AD3008CF8B0 /* sound_coconut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound_coconut.mp3; path = Support/SFX/sound_coconut.mp3; sourceTree = "<group>"; };
 		AA464D2C20C00AD3008CF8B0 /* sound_orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound_orange.mp3; path = Support/SFX/sound_orange.mp3; sourceTree = "<group>"; };
-		BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../RainCat/RainCat/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0B1C871D8C9BA900C09901 /* LogoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoScene.swift; path = Scenes/LogoScene.swift; sourceTree = "<group>"; };
 		BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsManager.swift; path = Utility/UserDefaultsManager.swift; sourceTree = "<group>"; };
 		BB35FD821EBBA06A00D58F68 /* CreditLabelButtonSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditLabelButtonSprite.swift; sourceTree = "<group>"; };
@@ -232,6 +231,7 @@
 		BBDAD95A1F08945100BB111E /* jeffmoon-raincat-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "jeffmoon-raincat-1.wav"; sourceTree = "<group>"; };
 		BBED71871EBA3B8C002E118E /* TextButtonSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButtonSprite.swift; sourceTree = "<group>"; };
 		BBED71891EBA4F8F002E118E /* SoundButtonSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundButtonSprite.swift; sourceTree = "<group>"; };
+		E16DFF5A20C03DE200E6DF89 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,9 +307,9 @@
 				BBCE0A491D8D08EA006C1F44 /* Assets.xcassets */,
 				BBD0A8E41D79D4EB00002F71 /* Fonts */,
 				BBA2E4AF1D74A62C00853E63 /* Main.storyboard */,
-				BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */,
 				BBD0A8DB1D78F0F100002F71 /* Music */,
 				BB281B7A1D7899AB00229A97 /* SFX */,
+				E16DFF5A20C03DE200E6DF89 /* LaunchScreen.storyboard */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -579,7 +579,7 @@
 				TargetAttributes = {
 					BBA2E4A11D74A62C00853E63 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = SYZ2B4B9CC;
+						DevelopmentTeam = T8Z9B8J8G4;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
@@ -617,6 +617,7 @@
 				AA464D3620C00AD4008CF8B0 /* sound_orange.mp3 in Resources */,
 				AA464D3320C00AD4008CF8B0 /* sound_peach.mp3 in Resources */,
 				BB459C4B1E9EB16B0027CA9B /* cat_meow_6.wav in Resources */,
+				E16DFF5B20C03DE200E6DF89 /* LaunchScreen.storyboard in Resources */,
 				BB476FB11F05636A005EB2AF /* lcd-pickup.wav in Resources */,
 				AA464D2E20C00AD4008CF8B0 /* sound_apple.mp3 in Resources */,
 				BB459C4C1E9EB16B0027CA9B /* cat_meow_7.mp3 in Resources */,
@@ -625,7 +626,6 @@
 				BBD0A8E21D78F12C00002F71 /* bensound-jazzyfrenchy.mp3 in Resources */,
 				AA464D3520C00AD4008CF8B0 /* sound_coconut.mp3 in Resources */,
 				AA464D2D20C00AD4008CF8B0 /* sound_strawberry.mp3 in Resources */,
-				BB046BB71EA157FC001035EB /* LaunchScreen.storyboard in Resources */,
 				AA464D3020C00AD4008CF8B0 /* sound_tomato.mp3 in Resources */,
 				BB98D4811DC3A49C00D17C8D /* LCDScene.sks in Resources */,
 				BBA2E4B11D74A62C00853E63 /* Main.storyboard in Resources */,
@@ -853,7 +853,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SYZ2B4B9CC;
+				DEVELOPMENT_TEAM = T8Z9B8J8G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -872,7 +872,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SYZ2B4B9CC;
+				DEVELOPMENT_TEAM = T8Z9B8J8G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
