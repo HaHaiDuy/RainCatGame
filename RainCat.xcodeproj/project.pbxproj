@@ -248,7 +248,6 @@
 		BB281B7A1D7899AB00229A97 /* SFX */ = {
 			isa = PBXGroup;
 			children = (
-				AA464D2420C00AD3008CF8B0 /* sound_apple.mp3 */,
 				AA464D2820C00AD3008CF8B0 /* sound_banana.mp3 */,
 				AA464D2B20C00AD3008CF8B0 /* sound_coconut.mp3 */,
 				AA464D2720C00AD3008CF8B0 /* sound_grapes.mp3 */,
@@ -256,6 +255,7 @@
 				AA464D2C20C00AD3008CF8B0 /* sound_orange.mp3 */,
 				AA464D2920C00AD3008CF8B0 /* sound_peach.mp3 */,
 				AA464D2A20C00AD3008CF8B0 /* sound_pumpkin.mp3 */,
+				AA464D2420C00AD3008CF8B0 /* sound_apple.mp3 */,
 				AA464D2320C00AD2008CF8B0 /* sound_strawberry.mp3 */,
 				AA464D2620C00AD3008CF8B0 /* sound_tomato.mp3 */,
 				BB476FB01F05636A005EB2AF /* lcd-pickup.wav */,
